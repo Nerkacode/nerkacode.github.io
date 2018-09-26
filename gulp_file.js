@@ -34,3 +34,6 @@ gulp.task('watch', function(gulpCallback) {
     gulpCallback();
   });
 });
+
+//automatiskai paleidzia watch programa comand line parasius tiesios -> gulp
+gulp.task('default', ['watch']);
